@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the source and destination directories
-SOURCE_DIR="0sric-dotfiles/.config"
+SOURCE_DIR="0sric-dotfiles/~config"
 DEST_DIR="$HOME/home/.config"
 
 # Check if the source directory exists
