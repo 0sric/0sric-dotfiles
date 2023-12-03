@@ -1,7 +1,8 @@
 #!/bin/bash
 
+USER_HOME=$(eval echo ~$USER)
 # Set the path to the directory with scripts
-SCRIPTS_DIR="0sric-dotfiles/scripts"
+SCRIPTS_DIR="$USER_HOME/0sric-dotfiles/scripts"
 #Set the path to the scripts ---> install scripts
 FONT_SCRIPT="$SCRIPTS_DIR/font_install.sh"
 APP_SCRIPT="$SCRIPTS_DIR/app_install.sh"
